@@ -7,6 +7,10 @@ body {
     background-color: antiquewhite;
 }
 
+p {
+    text-align: justify;
+}
+
 .main-title {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -14,4 +18,21 @@ body {
     font-size: 20px;
     text-align: left;
     text-transform: capitalize;
+}
+
+.content-box {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.price {
+    font-size: 16.5px;
+    text-align: left;
+
+}
+
+
+#shop-column {
+    padding-left: 30px;
+    padding-right: 30px;
 }
