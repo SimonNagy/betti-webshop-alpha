@@ -1,26 +1,17 @@
 * {
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    align-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 body {
-    background-color: bisque;
+    background-color: antiquewhite;
 }
 
 .main-title {
     padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 20px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
     text-transform: capitalize;
-}
-
-.contentbox-main {
-    padding-left: 20;
-    padding-right: 20;
-}
-
-#indexp1 {
-    font-size: small;
-    text-align: justify;
 }
