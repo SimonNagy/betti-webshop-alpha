@@ -30,76 +30,127 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/function.js"></script>
 
 
 </head>
 <body>
 
   <!--start of main title-->
-  <div class="jumbotron text-center">
-    <h3>Betti szappanboltja webshop</h3>
-  </div>
+
   <!--end of main title-->
 
   <!--start of navigation bar-->
-  <nav class="navbar navbar-expand-sm bg-light justify-content-center">
-         
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="/index.html">Főoldal</a>
-            </li>
-         
-            <li class="nav-item">
-                <a class="nav-link" href="/gyogyn.html">Gyógynövényes</a>
-            </li>
-         
-            <li class="nav-item">
-                <a class="nav-link" href="/nemgyogy.html">Klasszikus</a>
-            </li>
-         
-            <li class="nav-item">
-                <a class="nav-link" href="/about.html">Rólam</a>
-            </li>
-        </ul>
-  </nav>
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="/gyogyn.html" class="active">Gyógynövényes</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="/index.html">Főoldal</a>
+    <a href="/nemgyogy.html">Klasszikus</a>
+    <a href="/about.html">Rólam</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
   <!--end of navigation bar-->
   
   <!--start of webshop cards-->
   
+<div class="container">
+  <div class="row">
 
-    <div class="card">
-        <img class="card-img-top" src="/img/gyogyn/exampl1.jpeg" width="175" height="175" alt="Card image cap">
-        <div class="card-body">
-        <h5 class="card-title">Menta-eukaliptusz</h5>
-        <p class="card-text">Gyógynövényes szappan: menta és eukaliptusz. Még egy
-              kis szöveg, hogy modellezzük azt, hogy mennyire scalel jól ez a kártya.
-              Nem tudom milyen hosszú leírás kellene egy szappannak.
-        </p>
-        <p class="price">1234 HUF</p>
+    <div class="py-5">
+      <div class="container">
+        <div class="row hidden-md-up">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="/img/gyogyn/exampl1.jpeg" width="175" height="175" alt="Card image cap">
+                <h4 class="card-title">Menta-Eukaliptusz</h4>
+                <p class="card-text p-y-1">Valami minta szöveg, lehet valami jó marketinges cuccot írni
+                  ide. Nem tudom mit rizsázzak, hogy a területet szimuláljam, mint dobozt, ami szöveget tárol.
+                </p>
+                <p class="price">1234 HUF</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="/img/gyogyn/exampl1.jpeg" width="175" height="175" alt="Card image cap">
+                <h4 class="card-title">Menta-Eukaliptusz</h4>
+                <p class="card-text p-y-1">Valami minta szöveg, lehet valami jó marketinges cuccot írni
+                  ide. Nem tudom mit rizsázzak, hogy a területet szimuláljam, mint dobozt, ami szöveget tárol.
+                </p>
+                <p class="price">1234 HUF</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="/img/gyogyn/exampl1.jpeg" width="175" height="175" alt="Card image cap">
+                <h4 class="card-title">Menta-Eukaliptusz</h4>
+                <p class="card-text p-y-1">Valami minta szöveg, lehet valami jó marketinges cuccot írni
+                  ide. Nem tudom mit rizsázzak, hogy a területet szimuláljam, mint dobozt, ami szöveget tárol.
+                </p>
+                <p class="price">1234 HUF</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="/img/gyogyn/exampl1.jpeg" width="175" height="175" alt="Card image cap">
+                <h4 class="card-title">Menta-Eukaliptusz</h4>
+                <p class="card-text p-y-1">Valami minta szöveg, lehet valami jó marketinges cuccot írni
+                  ide. Nem tudom mit rizsázzak, hogy a területet szimuláljam, mint dobozt, ami szöveget tárol.
+                </p>
+                <p class="price">1234 HUF</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="/img/gyogyn/exampl1.jpeg" width="175" height="175" alt="Card image cap">
+                <h4 class="card-title">Menta-Eukaliptusz</h4>
+                <p class="card-text p-y-1">Valami minta szöveg, lehet valami jó marketinges cuccot írni
+                  ide. Nem tudom mit rizsázzak, hogy a területet szimuláljam, mint dobozt, ami szöveget tárol.
+                </p>
+                <p class="price">1234 HUF</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-block">
+                <img class="card-img-top" src="/img/gyogyn/exampl1.jpeg" width="175" height="175" alt="Card image cap">
+                <h4 class="card-title">Menta-Eukaliptusz</h4>
+                <p class="card-text p-y-1">Valami minta szöveg, lehet valami jó marketinges cuccot írni
+                  ide. Nem tudom mit rizsázzak, hogy a területet szimuláljam, mint dobozt, ami szöveget tárol.
+                </p>
+                <p class="price">1234 HUF</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="/img/gyogyn/exampl1.jpeg" width="175" height="175" alt="Card image cap">
-        <div class="card-body">
-        <h5 class="card-title">Menta-eukaliptusz</h5>
-        <p class="card-text">Gyógynövényes szappan: menta és eukaliptusz. Még egy
-                  kis szöveg, hogy modellezzük azt, hogy mennyire scalel jól ez a kártya.
-                  Nem tudom milyen hosszú leírás kellene egy szappannak.
-        </p>
-        <p class="price">1234 HUF</p>
-    </div>
-    
-    <div class="card">
-        <img class="card-img-top" src="/img/gyogyn/exampl1.jpeg" width="175" height="175" alt="Card image cap">
-        <div class="card-body">
-        <h5 class="card-title">Menta-eukaliptusz</h5>
-        <p class="card-text">Gyógynövényes szappan: menta és eukaliptusz. Még egy
-              kis szöveg, hogy modellezzük azt, hogy mennyire scalel jól ez a kártya.
-              Nem tudom milyen hosszú leírás kellene egy szappannak.
-        </p>
-        <p class="price">1234 HUF</p>
-    </div>
-  
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+
+  </div>
+</div>
+
   <!--end of webshop cards.-->
   
 

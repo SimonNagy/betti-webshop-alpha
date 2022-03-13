@@ -4,17 +4,17 @@
 }
 
 body {
-    background-color: rgb(218, 253, 255);
+    background-color: rgb(175, 214, 216);
     width: auto;
-}
-
-div {
-    padding: auto;
 }
 
 p {
     text-align: justify;
     padding: 0;
+}
+
+div {
+    padding: auto;
 }
 
 #subtitle {
@@ -29,30 +29,17 @@ p {
     color: grey;
 }
 
-
-.index-title {
-    text-align: center;
-    color: black;
-    padding-bottom: 20px;
-}
-
-
 .index-sub {
     text-align: center;
     font-style: italic;
-    color: black;
 }
+
 
 .price {
     font-size: 16.5px;
     text-align: left;
 }
 
-.row {
-    position: relative;
-    padding-left: 20;
-    padding-right: 20;
-}
 
 .row-index {
     padding-left: 20;
@@ -63,3 +50,59 @@ p {
     position: relative;
     padding: 10;
 }
+
+.cont-pad {
+    padding-top: 25px;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+/* Style the navigation menu, color=lenyíló menü szín */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(119, 119, 119);
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links, color=textcolor */
+  .topnav a {
+    color: rgb(5, 5, 5);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: rgb(161, 100, 211);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: rgb(250, 250, 250);
+    color: rgb(116, 116, 116);
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: rgba(161, 100, 211, 0.637);
+    color: rgb(136, 136, 136);
+  }
