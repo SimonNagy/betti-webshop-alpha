@@ -7,3 +7,7 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+
+  Button () {
+    $('form').attr('action','new path');
+  }
