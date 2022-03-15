@@ -6,8 +6,7 @@ function myFunction() {
     } else {
       x.style.display = "block";
     }
-  }
+  };
 
-  Button () {
-    $('form').attr('action','new path');
-  }
+  // ne felejtsd ez a ; a végéről az isten szakítsa rád az egeket,
+  // ezen szoptam fél órát
